@@ -6,6 +6,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(3000);
   const url = await app.getUrl();
-  Logger.log(url);
+  Logger.log(`${url}/grapqhl`);
 }
 bootstrap();
