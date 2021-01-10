@@ -974,6 +974,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@graphql-tools/batch-delegate@npm:^6.2.6":
+  version: 6.2.6
+  resolution: "@graphql-tools/batch-delegate@npm:6.2.6"
+  dependencies:
+    "@graphql-tools/delegate": ^6.2.4
+    dataloader: 2.0.0
+    tslib: ~2.0.1
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0
+  checksum: 62dcabbf828f57c5df124bd61c61e979994aa04bbd495a8f1bbb319958aa272ff21b4194387ae8f159cc77161fa91178ac359b9c3d26b14db6c708820b6da212
+  languageName: node
+  linkType: hard
+
 "@graphql-tools/code-file-loader@npm:^6.2.4":
   version: 6.2.4
   resolution: "@graphql-tools/code-file-loader@npm:6.2.4"
@@ -6160,7 +6173,7 @@ fsevents@^1.2.7:
     eslint-config-prettier: ^6.12.0
     eslint-plugin-import: ^2.22.1
     graphql: ^15.3.0
-    graphql-tools: ^6.2.4
+    graphql-tools: ^6.2.6
     jest: 26.5.3
     prettier: ^2.1.2
     reflect-metadata: ^0.1.13
@@ -6371,11 +6384,11 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"graphql-tools@npm:^6.2.4":
-  version: 6.2.4
-  resolution: "graphql-tools@npm:6.2.4"
+"graphql-tools@npm:^6.2.6":
+  version: 6.2.6
+  resolution: "graphql-tools@npm:6.2.6"
   dependencies:
-    "@graphql-tools/batch-delegate": ^6.2.4
+    "@graphql-tools/batch-delegate": ^6.2.6
     "@graphql-tools/code-file-loader": ^6.2.4
     "@graphql-tools/delegate": ^6.2.4
     "@graphql-tools/git-loader": ^6.2.4
@@ -6400,7 +6413,7 @@ fsevents@^1.2.7:
     tslib: ~2.0.1
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0
-  checksum: 3dad153448a9978636fd4baa9ed2a93407144a61c70a818df723bb425f26c5cfe873c20b8961aa06acd33a0b9d26bb59a1b3268a3e98634f34b0861342fa573c
+  checksum: 1844284754983e7f90cea1534b48e4d08fa88c4f866792764b33fcb1bebc0376f9f5d7f19fceeb1576df7f60b8585e405cd9ca9760bc90744e85c0974d33bc3a
   languageName: node
   linkType: hard
 
