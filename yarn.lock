@@ -6159,7 +6159,7 @@ fsevents@^1.2.7:
     eslint: 7.11.0
     eslint-config-prettier: ^6.12.0
     eslint-plugin-import: ^2.22.1
-    graphql: ^15.3.0
+    graphql: ^15.8.0
     graphql-tools: ^6.2.4
     jest: 26.5.3
     prettier: ^2.1.2
@@ -6422,6 +6422,13 @@ fsevents@^1.2.7:
   version: 15.3.0
   resolution: "graphql@npm:15.3.0"
   checksum: f01c05eb9102a88f33b4276b38399f066067d5be03c66c3bfec3e71e1793a91750e408f7abb001831bc2daf09746ab70ac0af16894d0ef1f1c1246fb0c2f4b0e
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^15.8.0":
+  version: 15.8.0
+  resolution: "graphql@npm:15.8.0"
+  checksum: 51bf37d7182f34dd95b3d8a2a502dab7942f848580ac60f89cdbcaa662a492b1ccae3beb166fb177b5aefdaa4313a8168a4e340d8242e21921d593cefe936861
   languageName: node
   linkType: hard
 
