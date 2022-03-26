@@ -2292,12 +2292,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/supertest@npm:^2.0.10":
-  version: 2.0.10
-  resolution: "@types/supertest@npm:2.0.10"
+"@types/supertest@npm:^2.0.12":
+  version: 2.0.12
+  resolution: "@types/supertest@npm:2.0.12"
   dependencies:
     "@types/superagent": "*"
-  checksum: 9ceae7e74305bdd892f57922bfa5355dc50f44f3e2243e159609fa0e275e4a3fea55c2c2d637f37bd8193143cdbab50449e5be36380afe29899ad7aecffb7685
+  checksum: eb689728b3186c47e18d311a496dfe350bf875484bc226ad85ef47949985c7b8129cbb37d01b8823bc6af5e6277a16b5888eb540a18f6e9213516933b94d3106
   languageName: node
   linkType: hard
 
@@ -6152,7 +6152,7 @@ fsevents@^1.2.7:
     "@types/express": ^4.17.8
     "@types/jest": 26.0.14
     "@types/node": ^14.11.8
-    "@types/supertest": ^2.0.10
+    "@types/supertest": ^2.0.12
     "@typescript-eslint/eslint-plugin": 4.4.1
     "@typescript-eslint/parser": 4.4.1
     apollo-server-express: ^2.18.2
