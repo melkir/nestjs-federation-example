@@ -2010,7 +2010,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express@npm:*, @types/express@npm:^4.17.8":
+"@types/express-serve-static-core@npm:^4.17.33":
+  version: 4.17.33
+  resolution: "@types/express-serve-static-core@npm:4.17.33"
+  dependencies:
+    "@types/node": "*"
+    "@types/qs": "*"
+    "@types/range-parser": "*"
+  checksum: 128c874be244dc391e546dc436cdc676ea2a86f29fa68ed74e1fceb01740d30d8fb581b2543a44bfdcbb767e7b11cd0ad93929e79adfd5854ac899c60af70aea
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:*":
   version: 4.17.8
   resolution: "@types/express@npm:4.17.8"
   dependencies:
@@ -2031,6 +2042,18 @@ __metadata:
     "@types/qs": "*"
     "@types/serve-static": "*"
   checksum: 99b795c60e7368b575794574c35d0ffd0d119c52bc681af6beda2fee70aada78e8aef07fc0db3b88f594d5d935847de4187561d2456760eeb4fde5d10dbb3780
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:^4.17.17":
+  version: 4.17.17
+  resolution: "@types/express@npm:4.17.17"
+  dependencies:
+    "@types/body-parser": "*"
+    "@types/express-serve-static-core": ^4.17.33
+    "@types/qs": "*"
+    "@types/serve-static": "*"
+  checksum: bcc3cb3bcd1b74ad980562943dd1f2110c1234f4b4362ba15ad35e292cb1c741c369ea9fdd24449e61cb8208fbd8eddf42491090c1fe7d5e290d9a0b96a81894
   languageName: node
   linkType: hard
 
@@ -6149,7 +6172,7 @@ fsevents@^1.2.7:
     "@nestjs/platform-express": ^7.4.4
     "@nestjs/schematics": ^7.1.2
     "@nestjs/testing": ^7.4.4
-    "@types/express": ^4.17.8
+    "@types/express": ^4.17.17
     "@types/jest": 26.0.14
     "@types/node": ^14.11.8
     "@types/supertest": ^2.0.10
