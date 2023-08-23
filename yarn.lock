@@ -2209,7 +2209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.11.8":
+"@types/node@npm:*":
   version: 14.11.8
   resolution: "@types/node@npm:14.11.8"
   checksum: 5139c07ba76d791b4930fa02ec746656dacf78b43c431d56a7514a8285962d0511bf356bee870968a541033c14967b58f7b2a58c48ac81646ce4eb28d2ff433d
@@ -2220,6 +2220,13 @@ __metadata:
   version: 10.17.39
   resolution: "@types/node@npm:10.17.39"
   checksum: e499bf16550277304a4b56a931f83506753606125e8cb03dd9d632ab958bc4cb61134c73449514456b1108b22fbe9646d0a80c998d7b551abd3f35a8e0f77114
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.18.55":
+  version: 14.18.55
+  resolution: "@types/node@npm:14.18.55"
+  checksum: 1572efc45659dad4c9fa4ea9e79dea03a4e2a888d11c3bc3d524d1707e7dea6e5b8b83f3d35e600dccf01fbe7210a06493f1aecf92b9a579ee4ea29068df3a41
   languageName: node
   linkType: hard
 
@@ -6151,7 +6158,7 @@ fsevents@^1.2.7:
     "@nestjs/testing": ^7.4.4
     "@types/express": ^4.17.8
     "@types/jest": 26.0.14
-    "@types/node": ^14.11.8
+    "@types/node": ^14.18.55
     "@types/supertest": ^2.0.10
     "@typescript-eslint/eslint-plugin": 4.4.1
     "@typescript-eslint/parser": 4.4.1
